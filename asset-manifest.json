@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Accesories-shop-website/static/css/main.6f8de813.css",
+    "main.js": "/Accesories-shop-website/static/js/main.5c497097.js",
+    "index.html": "/Accesories-shop-website/index.html",
+    "main.6f8de813.css.map": "/Accesories-shop-website/static/css/main.6f8de813.css.map",
+    "main.5c497097.js.map": "/Accesories-shop-website/static/js/main.5c497097.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f8de813.css",
+    "static/js/main.5c497097.js"
+  ]
+}
