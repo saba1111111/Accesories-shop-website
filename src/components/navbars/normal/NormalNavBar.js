@@ -18,7 +18,7 @@ const NormalNavBar = () => {
           <p className='every'><a href="#silver">ვერცხლი</a></p>
           <p className='every' ><a href="#ring" >ბეჭდები</a></p>
           <p className='every' ><a href="#clock" >საათი</a></p>
-          <p className='every'><a href="#samajurebi" >სამაჯური</a></p>
+          <p className='every'><a href="#samajurebi"  >სამაჯური</a></p>
           <p className='every'><a href="#contact"  >კონტაქტი</a></p>
           { !second && <AiOutlineMenu onClick={() => setSecond(!second)} className='w-[25px] h-[20px] mr-[10px] mt-[2px] cursor-pointer' /> }
       </div>
@@ -41,9 +41,9 @@ const NormalNavBar = () => {
         </div>
         </div>
         <div className='flex ' >
-        <a href="https://www.linkedin.com/in/saba-pachulia-2bb368229/" target="_blank"><BsLinkedin className='m-[5px] w-[20px] h-[20px] cursor-pointer' /></a>
-         <a href="https://www.instagram.com/sabapachulia1/" target="_blank"><FaInstagramSquare className='m-[5px] w-[20px] h-[20px] cursor-pointer' /></a>
-         <a href="https://www.facebook.com/pachulia.saba/" target="_blank"> <AiFillFacebook className='m-[5px] w-[23px] h-[23px] cursor-pointer' /></a>
+        <a rel="noreferrer" href="https://www.linkedin.com/in/saba-pachulia-2bb368229/" target="_blank"><BsLinkedin className='m-[5px] w-[20px] h-[20px] cursor-pointer' /></a>
+         <a rel="noreferrer" href="https://www.instagram.com/sabapachulia1/" target="_blank"><FaInstagramSquare className='m-[5px] w-[20px] h-[20px] cursor-pointer' /></a>
+         <a rel="noreferrer" href="https://www.facebook.com/pachulia.saba/" target="_blank"> <AiFillFacebook className='m-[5px] w-[23px] h-[23px] cursor-pointer' /></a>
         </div>
         </div>
         </motion.div>
