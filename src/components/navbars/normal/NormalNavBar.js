@@ -7,6 +7,7 @@ import {BsLinkedin} from "react-icons/bs";
 import {FaInstagramSquare} from "react-icons/fa";
 import {AiFillFacebook} from "react-icons/ai";
 import { motion } from 'framer-motion';
+import { HashLink as Link } from 'react-router-hash-link';
 const NormalNavBar = () => {
   const [second,setSecond] = useState(false);
   return (
@@ -15,11 +16,11 @@ const NormalNavBar = () => {
       <div className='h-[100px] w-[100%]  flex justify-between items-center ' >
      <img  className='w-[300px] h-[90px]' src="axali-logo-1.jpg" alt="" />
       <div className='flex' >
-          <p className='every'><a href="#silver">ვერცხლი</a></p>
-          <p className='every' ><a href="#ring" >ბეჭდები</a></p>
-          <p className='every' ><a href="#clock" >საათი</a></p>
-          <p className='every'><a href="#samajurebi"  >სამაჯური</a></p>
-          <p className='every'><a href="#contact"  >კონტაქტი</a></p>
+          <p className='every'><Link to="#silver">ვერცხლი</Link></p>
+          <p className='every' ><Link to="#ring" >ბეჭდები</Link></p>
+          <p className='every' ><Link to="#clock" >საათი</Link></p>
+          <p className='every'><Link to="#samajurebi"  >სამაჯური</Link></p>
+          <p className='every'><Link to="#contact"  >კონტაქტი</Link></p>
           { !second && <AiOutlineMenu onClick={() => setSecond(!second)} className='w-[25px] h-[20px] mr-[10px] mt-[2px] cursor-pointer' /> }
       </div>
      </div>
