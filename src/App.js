@@ -7,14 +7,14 @@ import Error from './components/Error';
 function App() {
   return (
     <HashRouter>
-     <Routes>
-       <Route path='/' element={<Mixeverything />} />
-       <Route  path="/seemore" element={<MoreThings />} />
-       <Route path="/choose" element={<ChooseThing />} />
-       <Route path="*" element={<Error />} />
-     </Routes>
+      <Routes>
+        <Route path="/" element={<Mixeverything />} />
+        <Route path="/seemore" element={<MoreThings />} />
+        <Route path="/choose" element={<ChooseThing />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
     </HashRouter>
-  // <Mixeverything />
+    // <Mixeverything />
   );
 }
 
